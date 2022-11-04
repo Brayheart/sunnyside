@@ -1,6 +1,6 @@
 header {
     position: relative;
-    height: 110vh;
+    height: 100vh;
 }
 
 nav {
@@ -31,4 +31,35 @@ nav {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+.text-block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.row3-image-container {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.row3-text-container {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row3-image {
+    position: absolute;
 }
