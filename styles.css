@@ -63,3 +63,24 @@ nav {
 .row3-image {
     position: absolute;
 }
+
+.testimonials-section {
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.testimonials-container {
+    display: flex;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-image {
+    width: 100px;
+    border-radius: 100%;
+}
