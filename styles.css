@@ -37,6 +37,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+}
+
+.brand-img {
+    width: 50%;
+}
+
+.brand-images-section {
+    display: flex;
 }
 
 .text-block {
@@ -83,4 +92,23 @@ nav {
 .testimonials-image {
     width: 100px;
     border-radius: 100%;
+}
+
+footer {
+    background-color: #90D4C5;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
