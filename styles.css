@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: absolute;
     width: -webkit-fill-available;
@@ -7,9 +11,18 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
     align-items: center;
     align-content: center;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.arrowicon:hover {
+    cursor: pointer;
 }
 
 .contact-button {
@@ -32,6 +45,7 @@ nav {
     color: #fff;
     text-align: center;
     margin-top: 50px;
+    font-size: 80px;
 }
 
 .text-block-container {
