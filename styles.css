@@ -199,6 +199,19 @@ footer h2 {
     color: #1A4D68;
 }
 
+.triangle {
+    height: 100px;
+    background-color: #fff;
+    clip-path: polygon(0 50%, 100% 0,100% 50%,0 100%);
+    width: 50px;
+    float: revert;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: -25px;
+}
+
 .hamburger-menu {
     display: none;
 }
@@ -234,6 +247,7 @@ footer h2 {
         border-radius: 20px;
         font-size: 20px;
         background-color: #fff;
+        position: relative;
     }
 
     .mobile-menu-container {
