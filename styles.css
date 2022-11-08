@@ -198,6 +198,19 @@ footer h2 {
     color: #1A4D68;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
+.show{
+    background: #fff;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
     nav {
@@ -206,6 +219,10 @@ footer h2 {
 
     .nav-elements-container {
         display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
     }
 
     .header-title {
