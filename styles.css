@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 header {
@@ -203,8 +204,16 @@ footer h2 {
 }
 
 .show{
-    background: #fff;
     display: block;
+}
+
+.white-background {
+    background: #fff;
+}
+
+.arrowicon {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hidden {
@@ -215,6 +224,37 @@ footer h2 {
 
     nav {
         padding: 30px;
+    }
+
+    .mobile-menu {
+        text-align: center;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 20px;
+        font-size: 20px;
+        background-color: #fff;
+    }
+
+    .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        color: #ADAABD;
+        font-weight: 800;
+    }
+
+    .mobile-button {
+        color: black;
+        font-weight: 900;
+        width: 150px;
+        border: none;
+        border-radius: 30px;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #FBD74A;
     }
 
     .nav-elements-container {
