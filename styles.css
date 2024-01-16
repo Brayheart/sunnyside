@@ -3,6 +3,10 @@ html {
     overflow-x: hidden;
 }
 
+.fill {
+    width: -webkit-fill-available;
+}
+
 header {
     position: absolute;
     width: -webkit-fill-available;
@@ -31,6 +35,8 @@ body {
 }
 
 .contact-button {
+    font-family: sans-serif;
+    cursor: pointer;
     background-color: #fff;
     border: none;
     padding: 5px 20px;
@@ -46,11 +52,15 @@ body {
     color: #fff;
 }
 
+.nav-elements-container > div {
+    cursor: pointer;
+}
+
 .header-title {
     color: #fff;
     text-align: center;
     margin-top: 50px;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .text-block-container {
@@ -231,6 +241,12 @@ footer h2 {
 
 .hidden {
     display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-title {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
